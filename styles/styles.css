@@ -27,14 +27,15 @@ header nav li {
 }
 header nav a {
   text-decoration: none;
+  font-family: "Krona One", sans-serif;
+  font-size: 1rem;
   color: #0C0421;
   font-weight: 500;
-  font-family: "Krona One", sans-serif;
 }
 header #home {
   max-width: 1040px;
-  width: 80%;
   margin: 0 auto;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -65,4 +66,46 @@ header #home .img-home {
 }
 header #home .img-home img {
   width: 100%;
+}
+
+#nosso-espaco {
+  margin: 0 auto;
+  width: 80%;
+}
+#nosso-espaco .detalhes {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+#nosso-espaco .detalhes .imgs-espaco, #nosso-espaco .detalhes .espaco-textos {
+  max-width: 500px;
+}
+#nosso-espaco .detalhes .espaco-textos .titulo {
+  font-family: "Krona One", sans-serif;
+  font-size: 1.8rem;
+  color: #4E75FF;
+  font-weight: 500;
+}
+#nosso-espaco .detalhes .espaco-textos .infos {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: #0C0421;
+}
+#nosso-espaco .detalhes .espaco-textos .separador {
+  width: 100%;
+}
+#nosso-espaco .detalhes:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+#servico {
+  background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
+}
+#servico .cards {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
 }/*# sourceMappingURL=styles.css.map */
