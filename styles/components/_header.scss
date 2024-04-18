@@ -23,8 +23,11 @@ header {
         a {
             text-decoration: none;
             @include mixins.ff-fs-cl(variaveis.$ft-titulos, 1rem, variaveis.$cor-primaria);
-            font-weight: 500;
-        }
+            font-weight: 400;
+            &:hover{
+                font-weight: 600;
+            }
+        }        
     }
     #home {
         max-width: 1040px;
@@ -53,6 +56,9 @@ header {
                 font-weight: 600;
                 padding: 24px 59.5px;
                 border: none;
+                &:hover{
+                    background-color: variaveis.$cor-terciaria;
+                }
             }
         }
         .img-home {
